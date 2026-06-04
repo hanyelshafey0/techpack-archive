@@ -1,0 +1,30 @@
+.header {
+  background: var(--bg1);
+  border-bottom: 1px solid var(--border);
+  padding: 0 1.5rem;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+.header-logo { display: flex; align-items: center; gap: 10px; }
+.logo-icon {
+  width: 32px; height: 32px;
+  background: linear-gradient(135deg, #1F6FEB, #58A6FF);
+  border-radius: 8px;
+  display: flex; align-items: center; justify-content: center;
+  color: #fff; flex-shrink: 0;
+}
+.logo-name { font-size: 15px; font-weight: 600; color: var(--text); }
+.logo-sub  { font-size: 10px; color: var(--muted); margin-top: -1px; }
+.btn-upload {
+  background: var(--accent2); color: #fff; border: none;
+  padding: 7px 14px; border-radius: var(--radius-sm);
+  font-size: 12px; font-weight: 500; cursor: pointer;
+  display: flex; align-items: center; gap: 6px;
+  transition: background .15s; font-family: inherit;
+}
+.btn-upload:hover { background: #388BFD; }
